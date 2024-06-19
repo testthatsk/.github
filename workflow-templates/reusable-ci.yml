@@ -10,5 +10,5 @@ on:
 
 jobs:
   build:
-    uses: testthatsk/.github/workflows/ci-java-testing.yml@main
+    uses: testthatsk/.github/.github/workflows/ci-java-testing.yml@main
 
