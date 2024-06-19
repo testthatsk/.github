@@ -1,12 +1,14 @@
 name: CI Java Testing
 
 on:
+  workflow_call:
   push:
     branches: [ $default-branch ]
   pull_request:
     branches: [ $default-branch ]
   schedule:
     - cron: "*/5 * * * *"
+
 jobs:
   build:
     runs-on: ubuntuvm
