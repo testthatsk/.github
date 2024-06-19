@@ -37,4 +37,4 @@ jobs:
     - name: checking new stage after modifying
       run: echo test
     - name: new test again
-      run: echo hellll:
+      run: echo hellll
