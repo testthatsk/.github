@@ -1,0 +1,14 @@
+{
+    "name": "Reusable CI Java Testing",
+    "description": "Java Organization CI starter workflow.",
+    "iconName": "example-icon",
+    "categories": [
+        "Java"
+    ],
+    "filePatterns": [
+        "pom.xml$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
+

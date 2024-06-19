@@ -1,4 +1,4 @@
-name: CI
+name: Reusable CI
 
 on:
   push:
